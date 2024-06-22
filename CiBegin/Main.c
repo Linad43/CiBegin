@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "TransfFarToCels.h"
+#include "CiBegin.h"
 
 main()
 {
@@ -9,5 +9,6 @@ main()
 
 	printf("Здравствуй мир!\n");
 
-	TransfFarToCels();
+	//TransfFahrToCels();
+	IOChar();
 }

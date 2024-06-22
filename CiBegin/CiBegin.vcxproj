@@ -127,11 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="IOChar.c" />
     <ClCompile Include="Main.c" />
-    <ClCompile Include="TransfFarToCels.c" />
+    <ClCompile Include="TransfTemp.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TransfFarToCels.h" />
+    <ClInclude Include="CiBegin.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
